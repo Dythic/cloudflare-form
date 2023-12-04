@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/Dythic/cloudflare-form#readme",
   "dependencies": {
-    "@datocms/cma-client-node": "^3.0.9",
-    "axios": "^1.6.2",
-    "datocms-client": "^3.5.21"
+    "@datocms/cma-client-node": "^3.0.9"
   }
 }
