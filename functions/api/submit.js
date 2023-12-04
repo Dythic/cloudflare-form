@@ -1,9 +1,17 @@
 /**
  * POST /api/submit
  */
+
+const axios = require('axios');
+
 export async function onRequestPost(context) {
+
     try {
         let input = await context.request.formData();
+
+        const res = await axios.get("https://swapi.dev/api/");
+
+        console.log(res.data);
 
         // Convert FormData to JSON
         // NOTE: Allows multiple values per key
