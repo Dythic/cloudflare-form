@@ -2,7 +2,7 @@
  * POST /api/submit
  */
 
-import { buildClient } from 'node:@datocms/cma-client-node';
+import { buildClient } from '@datocms/cma-client-node';
 
 export async function onRequestPost(context) {
 
