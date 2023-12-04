@@ -2,7 +2,7 @@
  * POST /api/submit
  */
 
-const axios = require('axios');
+import axios from 'axios';
 
 export async function onRequestPost(context) {
 
