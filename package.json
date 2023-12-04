@@ -11,8 +11,12 @@
   },
   "dependencies": {
     "@datocms/cma-client-node": "^3.0.9",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "url": "^0.11.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
