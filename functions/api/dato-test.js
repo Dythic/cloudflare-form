@@ -1,10 +1,6 @@
-/**
- * POST /api/submit
- */
-
 import { buildClient } from '@datocms/cma-client-node';
 
-export async function onRequestPost(context) {
+export async function handler(context, event, callback) {
 
     try {
         const client = buildClient({ apiToken: process.env.DATO_API_TOKEN });
@@ -15,7 +11,7 @@ export async function onRequestPost(context) {
             console.log(field);
         });
 
-        return new Response(field, {
+        return new Response(fields, {
             headers: {
                 'Content-Type': 'application/json;charset=utf-8',
             },
