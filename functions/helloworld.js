@@ -1,4 +1,4 @@
-import { buildClient } from 'node:@datocms/cma-client-node';
+import { buildClient } from '@datocms/cma-client-node';
 
 export async function onRequest(context) {
 
