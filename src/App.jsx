@@ -6,7 +6,9 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-  const res = fetch('/function/api/index.js')
+  const res = fetch('/helloworld')
+
+  console.log(res)
 
   return (
     <>
